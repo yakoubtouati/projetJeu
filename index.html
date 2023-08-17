@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" rel="stylesheet" type="text/css" />
+    <title>Dé Virtuel</title>
+    <script src="app.js" defer ></script>
+</head>
+
+<body>
+    
+    <!-- PANNEAU DU JEU -->
+    <div class="wrapper clearfix">
+
+        <!-- PANNEAU DU JOUEUR 1 -->
+        <div class="joueur-1-panel  active">
+            <div class="nom-joueur" id="nom-1">Joueur 1</div>
+            <div class="score-joueur" id="score-1">0</div>
+            <div class="joueur-courant-box">
+                <div class="joueur-courant-label">En cours</div>
+                <div class="joueur-courant-score" id="encours-1">0</div>
+            </div>
+        </div>
+
+        <!-- PANNEAU DU JOUEUR 2 -->
+        <div class="joueur-2-panel">
+            <div class="nom-joueur" id="nom-2">Joueur 2</div>
+            <div class="score-joueur" id="score-2">0</div>
+            <div class="joueur-courant-box">
+                <div class="joueur-courant-label">En cours</div>
+                <div class="joueur-courant-score" id="encours-2">0</div>
+            </div>
+        </div>
+
+        <!-- LES BOUTTONS -->
+        <button class="btn-nouveau"><i class="ion-ios-plus-outline"></i>Nouveau Jeu</button>
+        <button class="btn-lancer"><i class="ion-ios-loop"></i>LanceZ le Dé</button>
+        <button class="btn-commuter"><i class="ion-ios-download-outline"></i>Commutez</button>
+        <!-- L'IMAGE DU DE -->
+        <img src="./resources/images/de-2.png" alt="Le Dé" class="de">
+    </div>
+</body>
+
+</html>
